@@ -2,3 +2,62 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+h1 {
+  font-size: 2.5em;
+}
+
+.container > h1 {
+  font-size: 1.5em;
+  line-height: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.preview {
+  height: 30em;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 6%;
+  display: inline-block;
+  float: left;
+}
+
+@media screen and (min-width: 575px) {
+  .preview {
+    margin: 1%;
+    width: 48%;
+  }
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    width: 22%;
+  }
+}
+
+.preview h1 {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.baku {
+  background-image: url("../images/baku.jpg");
+}
+
+.london {
+  background-image: url( "../images/london.png");
+}
+
+.madrid {
+  background-image: url( "../images/madrid.jpg");
+}
+
+.rome {
+  background-image: url( "../images/rome.jpg");
+}
